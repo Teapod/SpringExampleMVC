@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 
 
 @Configuration
-@ComponentScan("ru.alishev.springcourse")
+@ComponentScan("org.teapod.spring")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 
